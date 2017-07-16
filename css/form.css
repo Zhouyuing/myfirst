@@ -1,0 +1,40 @@
+.footer-left label{
+	color:#789;
+}
+.footer-left input[type="text"],.footer-left textarea{
+	background:#170F12;
+	color:#789;
+	padding: 1em 0.8em;
+	width:65%;
+	margin-bottom:1em;
+	outline:none;
+	border-color:#9A9A9A #EEEEEE #EEEEEE #9A9A9A;
+}
+.footer-left textarea {
+	min-height:120px;
+	resize:none;
+	vertical-align: middle;
+}
+.footer-left textarea{
+	color:#B5A9B7;
+}
+.footer-left input[type="submit"]{
+	text-align:center;
+	float:right;
+	color:#D2D1D1;
+	font-size:1.2em;
+	outline:none;
+	display: inline-block;
+	padding:0.6em 1.5em;
+	border:1px solid #B8ABAB;
+	background:none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+.footer-left input[type="submit"]:hover{
+	border-color:#FFF;
+	color:#FFF;
+}

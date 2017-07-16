@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人博客简介</title>
+	<script src="./js/jquery.min.js"> </script>
+	<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./css/flexslider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="./css/readmore.css" >
+	<link rel="stylesheet" href="./css/form.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="./js/move-top.js"></script>
+	<script type="text/javascript" src="./js/easing.js"></script>
+	<script type="text/javascript" src="./js/jquery.flexslider.js"></script>
+	<script> 
+	addEventListener("load", function() { 
+		setTimeout(hideURLbar, 0); 
+	}, false);
+	function hideURLbar(){
+		window.scrollTo(0,0); 
+		  } 
+	</script>
+	<script >
+		jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		})
+	</script>
+		<script>
+	    $(window).load(function(){
+	      $('.flexslider').flexslider({
+	        animation: "slide",
+	        start: function(slider){
+	          $('body').removeClass('loading');
+	        }
+	      });
+	    });
+	  </script>
+
+</head>
+<body>
+<div id="top-top" class="headerbg">
+<div class="header">
+<div class="container">
+	<div class="logo">
+		<a href="javaScript::">简介</a>
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a class="scroll" href="#about">关于</a></li>
+			<li><a class="scroll" href="#skills">技能</a></li>
+		    <li><a class="scroll" href="#port">项目</a></li>
+			<li><a class="scroll" href="#contact">联系</a></li>
+		</ul>
+	</div><!--Navigation ends-->
+	<div class="clear"></div>
+</div><!--container ends-->
+</div><!-- header end -->
+
+<div class="banner">
+<div class="container">
+<div class="bannerhead">
+<h1>MyName is...</h>
+<p>I'm a java Programmer</p>
+</div>
+<div class="banner-info">
+<div class="bannerlogo">
+<img src="./images/diamond.png">
+</div>
+<section class="slider">
+	<div class="flexslider">
+		<ul class="slides">
+		<li>
+			<div class="banner-top">
+			<p>就算我们站在群山之颠，也别忘记，雄鹰依旧能从我们头顶飞过。
+			</p>
+			<p>骄傲是比用JAVA进行底层开发更可笑的东西。</p>
+			<div class="bnr-btn">
+			<a href="#" class="hvr-shutter-out-horizontal">Read More</a>
+			</div>
+			</div>
+		</li>
+		<li>
+			<div class="banner-top">
+			<p>一个人静静坐在电脑面前写代码的感觉，那是什么感觉？</p>
+			<p>那是武林高手闭关修炼的感觉。</p>
+			<div class="bnr-btn">
+		
+			<a href="#" class="hvr-shutter-out-horizontal">Read More</a>
+			</div>
+			</div>
+		</li>
+		<li>
+			<div class="banner-top">
+			<p>世界上有两种人，一种是懂二进制的人，一种是不懂二进制的人
+			</p>
+			<p>世界上有两种人，一种是懂二进制的人，一种是不懂二进制的人
+			</p>
+			<div class="bnr-btn">
+
+			<a href="#" class="hvr-shutter-out-horizontal">Read More</a>
+			</div>
+			</div>
+		</li>
+
+		</ul>
+	</div>
+</section>
+</div>
+<div class="clear"></div>
+</div>
+</div>  
+</div><!-- 第一部分 -->
+
+	<div class="content"><!-- about部分 -->
+	<div id="about" class="about">
+	<div class="container">
+	<div class="header-section text-center">
+	  <h2><span> </span>关于<span> </span></h2>
+	  </div>
+	 <span>
+	 <p>人生总要经历些什么</p></span>
+		 
+	<div class="years">	 
+	<h4><b>2014</b></h4>
+	 <span><h4>**********************</h4></span>
+	 <p><i>*********************************************
+	 *********************************************
+	 *********************************************</i></p>
+	</div> 
+
+	<div class="years">	 		
+	 <h4><b>2016</b></h4>
+	 <span><h4>**********************</h4></span>
+	 <p><i>*********************************************
+	 *********************************************
+	 *********************************************</i></p>
+	</div> 
+		
+	<div class="years">	 	
+	 <h4><b>2017</b></h4>
+	 <span><h4>**********************</h4></span>
+	 <div class="labs">
+		 <p><i>*********************************************
+	 *********************************************
+	 *********************************************</i></p>
+	 </div>
+	</div>
+	 <a class="arrow scroll" href="#skills"><span> </span></a>
+	</div>
+	</div>
+	</div>
+		<!-- 技能部分开始 -->
+<div id="skills" class="skills">
+<div class="container">
+<div class="skills-grids">
+<div class="skill-section text-center">
+<h2 id="a"><span> </span>技能<span> </span></h2>
+</div>
+<div class="services_grids">
+<div id="canvas">
+	<div class="skill-grids text-center">
+	<div class="row"><!-- 第一行 -->
+		<div class="col-md-3">	
+		<div class="skill-grid">
+			<div class="circle" id="circles-1"></div>									
+			 <h3>java</h3>	
+		 </div>								  
+		</div>
+	<div class="col-md-3">	
+		<div class="skill-grid">
+			<div class="circle" id="circles-2"></div>									
+			 <h3>javascript</h3>	
+		 </div>								  
+	</div>
+	<div class="col-md-3">	
+		<div class="skill-grid">
+			<div class="circle" id="circles-3"></div>									
+			 <h3>ajax</h3>	
+		 </div>								  
+	</div>
+	<div class="col-md-3">	
+		<div class="skill-grid">
+			<div class="circle" id="circles-4"></div>									
+			 <h3>jQuery</h3>	
+		 </div>								  
+	</div>
+	<div class="clearfix"></div>
+	</div><!-- 第一行end -->	
+	</div>		
+</div><!-- 第一个canvans end -->
+<div id="canvasTh">
+	<div class="skill-grids text-center">
+	<div class="row"><!-- 第一行 -->
+	<div class="col-md-3">	
+		<div class="skill-grid">
+			<div class="circle" id="circlesTh-5"></div>									
+			 <h3>node.js</h3>	
+		 </div>								  
+	</div>
+	<div class="col-md-3">	
+		<div class="skill-grid">
+			<div class="circle" id="circlesTh-6"></div>	
+			 <h3>boostrap</h3>	
+		 </div>								  
+	</div>
+	<div class="col-md-3">	
+		<div class="skill-grid">
+			<div class="circle" id="circlesTh-7"></div>									
+			 <h3>RegExp</h3>	
+		 </div>								  
+	</div>
+	<div class="col-md-3">	
+		<div class="skill-grid">
+			<div class="circle" id="circlesTh-8"></div>									
+			 <h3>html</h3>	
+		 </div>								  
+	</div>
+	<div class="clearfix"</div>
+	</div><!-- 第一行end -->	
+  </div>		
+</div><!-- 第二个canvans end -->
+</div>
+</div>
+</div><!-- container end-->
+</div>
+</div><!-- 技能end -->
+<script type="text/javascript" src="./js/circles.js"></script>
+<script>
+var colors = [
+		  ['#181115', '#789'], ['#181115', '#789'],
+		  ['#181115', '#789'], ['#181115', '#789']
+	];
+for (var i = 1; i <= 4; i++) {
+	var child = document.getElementById('circles-' + i),
+		percentage = 60 + (i * 10);
+	Circles.create({
+		id:         child.id,
+		percentage: percentage,
+		radius:     30,
+		width:      12,
+		number:   	percentage / 1,
+		text:       '%',
+		colors:     colors[i - 1]
+	})
+}		
+</script>
+<script>
+var colorsTh = [
+		  ['#181115', '#789'], ['#181115', '#789'],
+		  ['#181115', '#789'], ['#181115', '#789']
+	];
+for (var j = 5; j <= 8; j++) {
+	var childTh=document.getElementById('circlesTh-' + j),
+		percentageTh = 60 + ((j-4) * 10);
+
+Circles.create({
+	id:         childTh.id,
+	percentage: percentageTh,
+	radius:     30,
+	width:      12,
+	number:   	percentageTh / 1,
+	text:       '%',
+	colors:     colorsTh[j - 5]
+})
+}
+</script>
+
+
+<div id="port" class="Portfolio">
+<div class="Portfolio-section text-center">
+ <h2><span> </span>项目<span> </span></h2>
+</div>
+<div class="container">
+  <div class="portfolio-grids">
+  <div class="portfolio-grid col-md-4">
+	 <a href="#"><img src="./images/monitr1.png"><span class="project">园艺</span></a>
+	  <p>2015年九月
+	  社团学习项目实践
+	  园艺主题网站</p>
+	  <a class="rightarrow" href="#"><span> </span></a>
+  </div>
+  <div class="portfolio-grid col-md-4">
+	  <a href="#"><img src="./images/monitr2.png"><span class="project">cocos-2d</span></a>
+	  <p>2016年九月
+	  天津科技园实习
+	  cocos-2d游戏开发一周</p>
+	  <a class="rightarrow" href="#"><span> </span></a>
+  </div>
+  <div class="portfolio-grid col-md-4">
+	  <a href="#"><img src="./images/monitr3.png"><span class="project">jsp图书馆</span></a>
+	  <p>2017年1月
+	  java实践技能训练
+	  jsp技术搭建图书馆系统</p>
+	  <a class="rightarrow" href="#"><span> </span></a>
+  </div>
+  <div class="clear"> </div>
+  </div>
+<a class="portdown scroll" href="#contact"><span> </span></a>
+</div>
+</div>
+
+<!-- the last -->
+<div  id="contact" class="footer">
+<div class="container last-container">
+<div class="row"><!-- 	仅一行 -->	 
+<div class="col-md-7"><!-- left -->
+<div class="footer-left">
+<div class="form">
+<form id="contactForm" class="contactForm">
+<fieldset>
+<label for="name">您希望的称呼：</label>
+<input type="text" class="name" id="name" value='' placeholder="周十二" autofocus><br>
+<label for="email">我回信的邮箱：</label>
+<input type="text" class="email" id="email" value='' placeholder="zhouyuying@163.com" requered>
+<br>
+<label for="advice" class="advice">您想说什么呢：</label>
+<textarea rows="2" cols="40" id="advice" placeholder="请问您愿意到我们公司就职吗？">
+</textarea>
+<div class="clear"></div>
+<input type="submit" value="SEND" id="save">   
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+<div class="col-md-5">
+<div class="footer-right">
+<ul>
+	<p class="ways">假如你想这样</p>
+	<li>微信：鱼儿庄园</li>
+	<li>电话：500820201078</li>
+	<li>微博：阿西阿巴家葡萄树</li>
+	<li>邮箱：zhouyuying@163.com</li>
+	<li>信址：秦皇岛海港区河北大街西段360</li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+
+</div>
+</div>
+</div>
+<script>
+$(document).ready(function(){
+	$("#save").click(function(){
+		$.ajax({
+			type: "POST",
+			url: "contactForm.php",
+			data: {
+				name: $("#name").val(),
+				email:$("email").val(),
+				advice:$("#advie").val(),
+			},
+			dataType: "json",
+			success: function (data){
+				if(data.success){
+					$("#createResult").html(data.msg);
+				} else {
+					$("$createResult").html("出现错误："+data.msg);
+				}
+			},
+			error: funcrion (data){
+				alert("发生错误：" + jqXHR.status);
+			},
+		});
+	});
+})
+</script>
+</body>
+</html>
+ 
+   
